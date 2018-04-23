@@ -1,0 +1,13 @@
+<header>
+	<a href="<%= posts_path %>"> Bright Ideas </a>
+</header>
+
+<div id="user_info">
+	<p> Name: <%= @this_user.name %> </p>
+	<p> Alias: <%= @this_user.alias %> </p>
+	<p> Email: <%= @this_user.email %> </p>
+</div>
+<div id="stats">
+	<p> Total number of posts: <%= @this_user.posts.count %> </p>
+	<p> Total number of likes: <%= @this_user.likes.count %> </p>
+</div>

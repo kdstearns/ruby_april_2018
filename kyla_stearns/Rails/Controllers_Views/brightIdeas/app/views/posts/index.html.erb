@@ -1,0 +1,30 @@
+<h1> Hi, <%= @current_user.name %> </h1>
+
+<form id="idea_form" action="<%= posts_path %>" method="POST">
+	<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+	<input type="text" name="post[content]">
+	<button type="submit"> Idea! </button>
+</form>
+
+<% @posts.each do |post| %>
+
+	<div id="ideas">
+		<div id="my_idea">	
+			<p> <a href="<%= user_path(post.user.id) %>"> <%= post.user.alias %></a> says: </p>
+			<div id="content"> 
+				<p> <%= post.content %> </p> 
+			</div>
+			<% if session[:id] == post.user.id %>
+			<!-- post content only user who created can see -->
+				<p> <a href="<%= post_path(post.id) %>" data-method="delete"> Delete</a> </p>
+			<% end %>
+		</div>
+		<% if post.users_liked.include?(@current_user) %>
+			<a href="<%= post_like_path(post.id) %>" data-method="delete"> Unlike </a> 
+		<% else %>
+			<a href="<%= post_likes_path(post.id)%>" data-method="post"> Like</a>
+		<% end %> 
+		<p id ="likes"><a href="<%= post_path(post.id)%>"> <%= post.users_liked.count %> people</a> like this</p>
+	</div>
+
+<% end %>

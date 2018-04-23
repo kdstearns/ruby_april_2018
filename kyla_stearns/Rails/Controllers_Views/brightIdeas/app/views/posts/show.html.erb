@@ -1,0 +1,24 @@
+<header>
+	<a href="<%= posts_path %>"> Bright Ideas </a>
+</header>
+
+<div id="my_idea">	
+	<p> <a href="<%= user_path(@this_post.user.id) %>"> <%= @this_post.user.alias %></a> says: </p>
+	<p id="content"> <%= @this_post.content %> </p>
+</div>
+
+<h5> People who liked this post: </h5>
+<table>
+	<thead>
+		<th> Alias </th>
+		<th> Name </th>
+	</thead>
+	<tbody>
+		<% @this_post.users_liked.each do |user| %>
+		<tr>
+			<td> <a href="<%= user_path(user.id) %>"> <%= user.alias %> </a> </td>
+			<td> <%= user.name %> </td>
+		</tr>
+		<% end %>
+	</tbody>
+</table>

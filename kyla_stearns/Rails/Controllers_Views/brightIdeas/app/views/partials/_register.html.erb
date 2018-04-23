@@ -1,0 +1,17 @@
+<h1> Register </h1>
+
+<form action="<%= users_path %>" method="POST">
+	<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token%>">
+	<label> Name </label>
+	<input type="text" name="user[name]">
+	<label> Alias </label>
+	<input type="text" name="user[alias]">
+	<label> Email </label>
+	<input type="text" name="user[email]">
+	<label> Password </label>
+	<h6> *Password should be at least 8 characters</h6>
+	<input type="password" name="user[password]">
+	<label> Confirm PW </label>
+	<input type="password" name="user[password_confirmation]">
+	<button type="submit"> Register </button>
+</form>

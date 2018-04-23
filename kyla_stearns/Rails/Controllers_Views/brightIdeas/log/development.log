@@ -1,0 +1,985 @@
+
+ActionController::RoutingError (undefined method `before_action' for main:Object):
+  app/controllers/users_controller.rb:2:in `<top (required)>'
+
+
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.9) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.9) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.9) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.9) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.9) lib/rack/lock.rb:17:in `call'
+  rack (1.6.9) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.9) lib/rack/handler/webrick.rb:88:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+Footnotes Footnotes::Notes::ViewNote Exception: undefined method `[]' for nil:NilClass
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rails-footnotes-4.1.8/lib/rails-footnotes/notes/view_note.rb:36:in `filename'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rails-footnotes-4.1.8/lib/rails-footnotes/notes/view_note.rb:30:in `valid?'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rails-footnotes-4.1.8/lib/rails-footnotes/filter.rb:103:in `block in initialize_notes!'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rails-footnotes-4.1.8/lib/rails-footnotes/each_with_rescue.rb:15:in `block in each_with_rescue'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rails-footnotes-4.1.8/lib/rails-footnotes/each_with_rescue.rb:13:in `each'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rails-footnotes-4.1.8/lib/rails-footnotes/each_with_rescue.rb:13:in `each_with_rescue'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rails-footnotes-4.1.8/lib/rails-footnotes/filter.rb:355:in `each_with_rescue'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rails-footnotes-4.1.8/lib/rails-footnotes/filter.rb:101:in `initialize_notes!'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rails-footnotes-4.1.8/lib/rails-footnotes/filter.rb:95:in `add_footnotes_without_validation!'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rails-footnotes-4.1.8/lib/rails-footnotes/filter.rb:73:in `add_footnotes!'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rails-footnotes-4.1.8/lib/rails-footnotes/extension.rb:27:in `rails_footnotes_after_filter'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:432:in `block in make_lambda'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:239:in `block in halting'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:506:in `block in call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:506:in `each'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:506:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/abstract_controller/callbacks.rb:19:in `process_action'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/notifications.rb:164:in `block in instrument'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/notifications.rb:164:in `instrument'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activerecord-4.2.7/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/abstract_controller/base.rb:137:in `process'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionview-4.2.7/lib/action_view/rendering.rb:30:in `process'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_controller/metal.rb:196:in `dispatch'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_controller/metal.rb:237:in `block in action'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/routing/route_set.rb:43:in `serve'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/journey/router.rb:43:in `block in serve'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/journey/router.rb:30:in `each'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/journey/router.rb:30:in `serve'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/routing/route_set.rb:817:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rack-1.6.9/lib/rack/etag.rb:24:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rack-1.6.9/lib/rack/conditionalget.rb:38:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rack-1.6.9/lib/rack/head.rb:13:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/flash.rb:260:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rack-1.6.9/lib/rack/session/abstract/id.rb:225:in `context'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rack-1.6.9/lib/rack/session/abstract/id.rb:220:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/cookies.rb:560:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activerecord-4.2.7/lib/active_record/query_cache.rb:36:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activerecord-4.2.7/lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activerecord-4.2.7/lib/active_record/migration.rb:377:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/reloader.rb:73:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:20:in `block in call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `catch'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/middleware.rb:18:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/rack/logger.rb:38:in `call_app'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/rack/logger.rb:20:in `block in call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/tagged_logging.rb:26:in `tagged'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/tagged_logging.rb:68:in `tagged'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/rack/logger.rb:20:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rack-1.6.9/lib/rack/methodoverride.rb:22:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rack-1.6.9/lib/rack/runtime.rb:18:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/activesupport-4.2.7/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rack-1.6.9/lib/rack/lock.rb:17:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.7/lib/action_dispatch/middleware/static.rb:120:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rack-1.6.9/lib/rack/sendfile.rb:113:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/engine.rb:518:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/railties-4.2.7/lib/rails/application.rb:165:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rack-1.6.9/lib/rack/lock.rb:17:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rack-1.6.9/lib/rack/content_length.rb:15:in `call'
+/home/vagrant/.rvm/gems/ruby-2.3.1/gems/rack-1.6.9/lib/rack/handler/webrick.rb:88:in `service'
+/home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"posts"} missing required keys: [:id]):
+  app/controllers/sessions_controller.rb:18:in `create'
+
+
+
+NameError (undefined local variable or method `new_session_path' for #<PostsController:0x007fe185f6dd58>):
+  app/controllers/application_controller.rb:19:in `require_login'
+
+
+
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"users", :id=>nil} missing required keys: [:id]):
+  app/controllers/posts_controller.rb:15:in `create'
+
+
+
+ActionView::Template::Error (Association named 'user' was not found on User; perhaps you misspelled it?):
+     7: 	<button type="submit"> Idea! </button>
+     8: </form>
+     9: 
+    10: <% @posts.each do |post| %>
+    11: 	<div id="ideas">
+    12: 		<p> <a href="<%= user_path(post.user.id) %>"> <%= post.user.alias %></a> says: </p>
+    13: 		<p> <%= post.content %> </p>
+  app/views/posts/index.html.erb:10:in `_app_views_posts_index_html_erb__2645911667798361622_70110156292020'
+
+
+
+ActionView::Template::Error (Association named 'user' was not found on User; perhaps you misspelled it?):
+     7: 	<button type="submit"> Idea! </button>
+     8: </form>
+     9: 
+    10: <% @posts.each do |post| %>
+    11: 	<div id="ideas">
+    12: 		<p> <a href="<%= user_path(post.user.id) %>"> <%= post.user.alias %></a> says: </p>
+    13: 		<p> <%= post.content %> </p>
+  app/views/posts/index.html.erb:10:in `_app_views_posts_index_html_erb__2645911667798361622_70110156292020'
+
+
+
+ActionView::MissingTemplate (Missing template users/show, application/show with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/rubyBelt/app/views"
+):
+  actionview (4.2.7) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.7) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.7) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.7) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.7) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.7) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.7) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.7) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.7) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.7) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.7) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.7) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.7) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.7) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.7) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.2.7) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.7) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.7) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.7) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.7) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.7) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.7) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.7) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.7) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.7) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.7) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.7) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.7) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.7) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.7) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.7) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.7) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.7) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.7) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.7) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.7) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.7) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.7) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.7) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.7) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.9) lib/rack/etag.rb:24:in `call'
+  rack (1.6.9) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.9) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.9) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.9) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.7) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.7) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.9) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.9) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.9) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.9) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.9) lib/rack/lock.rb:17:in `call'
+  rack (1.6.9) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.9) lib/rack/handler/webrick.rb:88:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+
+ActionView::MissingTemplate (Missing template posts/show, application/show with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/rubyBelt/app/views"
+):
+  actionview (4.2.7) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.7) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.7) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.7) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.7) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.7) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.7) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.7) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.7) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.7) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.7) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.7) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.7) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.7) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.7) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.2.7) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.7) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.7) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.7) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.7) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.7) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.7) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.7) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.7) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.7) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.7) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.7) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.7) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.7) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.7) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.7) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.7) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.7) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.7) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.7) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.7) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.7) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.7) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.7) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.7) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.9) lib/rack/etag.rb:24:in `call'
+  rack (1.6.9) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.9) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.9) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.9) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.7) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.7) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.9) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.9) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.9) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.9) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.9) lib/rack/lock.rb:17:in `call'
+  rack (1.6.9) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.9) lib/rack/handler/webrick.rb:88:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+
+NoMethodError (undefined method `secret' for #<Like:0x0000000433b4f0>):
+  app/controllers/likes_controller.rb:4:in `create'
+
+
+
+NoMethodError (undefined method `secret' for #<Like:0x007f5568825130>):
+  app/controllers/likes_controller.rb:4:in `create'
+
+
+
+NoMethodError (undefined method `secret' for #<Like:0x007f5568ce3f50>):
+  app/controllers/likes_controller.rb:4:in `create'
+
+
+
+NoMethodError (undefined method `secret' for #<Like:0x007f55688276b0>):
+  app/controllers/likes_controller.rb:15:in `create'
+
+
+
+ActionView::Template::Error (No route matches {:action=>"destroy", :controller=>"likes", :id=>nil, :post_id=>1} missing required keys: [:id]):
+    19: 		<% end %>
+    20: 		<% if post.users_liked.include?(@current_user) %>
+    21: 		<!-- will return an array of user objects -->
+    22: 			<p> <a href="<%= post_like_path(post.id) %> " data-method="delete"> Unlike</a> </p>
+    23: 		<% else %>
+    24: 		<!-- user can see if haven't liked -->
+    25: 			<a href="<%= post_likes_path(post.id)%>" data-method="post"> Like</a> 
+  app/views/posts/index.html.erb:22:in `block in _app_views_posts_index_html_erb___4284249986934295706_70002444595600'
+  app/views/posts/index.html.erb:10:in `_app_views_posts_index_html_erb___4284249986934295706_70002444595600'
+
+
+
+NoMethodError (undefined method `DELETE' for #<ActionDispatch::Routing::Mapper:0x007f5568f826a8>
+Did you mean?  delete):
+  config/routes.rb:27:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+
+NameError (undefined local variable or method `post_like' for #<ActionDispatch::Routing::Mapper:0x007f55688fbe38>):
+  config/routes.rb:27:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+
+NameError (undefined local variable or method `post_like' for #<ActionDispatch::Routing::Mapper:0x007f556da9dcc8>):
+  config/routes.rb:27:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+
+ActionView::Template::Error (PG::UndefinedColumn: ERROR:  column posts.likes does not exist
+LINE 1: SELECT "posts".* FROM "posts"  ORDER BY "posts"."likes" ASC
+                                                ^
+: SELECT "posts".* FROM "posts"  ORDER BY "posts"."likes" ASC):
+     7: 	<button type="submit"> Idea! </button>
+     8: </form>
+     9: 
+    10: <% @posts.each do |post| %>
+    11: 	<div id="ideas">
+    12: 		<div id="my_idea">	
+    13: 			<p> <a href="<%= user_path(post.user.id) %>"> <%= post.user.alias %></a> says: </p>
+  app/views/posts/index.html.erb:10:in `_app_views_posts_index_html_erb___4284249986934295706_70002402565060'
+
+
+
+SyntaxError (/vagrant/rubyBelt/app/views/posts/index.html.erb:10: syntax error, unexpected '}', expecting =>
+'.freeze; @posts.each.sort_by do |post| { -post.likes } 
+                                                       ^):
+  app/views/posts/index.html.erb:10: syntax error, unexpected '}', expecting =>
+
+
+
+ActionView::Template::Error (PG::UndefinedColumn: ERROR:  column posts.likes does not exist
+LINE 1: SELECT "posts".* FROM "posts"  ORDER BY "posts"."likes" DESC
+                                                ^
+: SELECT "posts".* FROM "posts"  ORDER BY "posts"."likes" DESC):
+     7: 	<button type="submit"> Idea! </button>
+     8: </form>
+     9: 
+    10: <% @posts.each do |post|%>
+    11: 	<div id="ideas">
+    12: 		<div id="my_idea">	
+    13: 			<p> <a href="<%= user_path(post.user.id) %>"> <%= post.user.alias %></a> says: </p>
+  app/views/posts/index.html.erb:10:in `_app_views_posts_index_html_erb___4284249986934295706_70002398114120'
+
+
+
+ActionView::Template::Error (Association named 'user' was not found on User; perhaps you misspelled it?):
+     7: 	<button type="submit"> Idea! </button>
+     8: </form>
+     9: 
+    10: <% @posts.each do |post|%>
+    11: 	<div id="ideas">
+    12: 		<div id="my_idea">	
+    13: 			<p> <a href="<%= user_path(post.user.id) %>"> <%= post.user.alias %></a> says: </p>
+  app/views/posts/index.html.erb:10:in `_app_views_posts_index_html_erb___4284249986934295706_70002404342340'
+
+
+
+ActionView::Template::Error (PG::UndefinedTable: ERROR:  missing FROM-clause entry for table "users_liked"
+LINE 1: ...rs" ON "users"."id" = "posts"."user_id"  ORDER BY users_like...
+                                                             ^
+: SELECT "posts"."id" AS t0_r0, "posts"."content" AS t0_r1, "posts"."user_id" AS t0_r2, "posts"."created_at" AS t0_r3, "posts"."updated_at" AS t0_r4, "users"."id" AS t1_r0, "users"."name" AS t1_r1, "users"."alias" AS t1_r2, "users"."email" AS t1_r3, "users"."password_digest" AS t1_r4, "users"."created_at" AS t1_r5, "users"."updated_at" AS t1_r6 FROM "posts" LEFT OUTER JOIN "users" ON "users"."id" = "posts"."user_id"  ORDER BY users_liked.count):
+     7: 	<button type="submit"> Idea! </button>
+     8: </form>
+     9: 
+    10: <% @posts.each do |post|%>
+    11: 	<div id="ideas">
+    12: 		<div id="my_idea">	
+    13: 			<p> <a href="<%= user_path(post.user.id) %>"> <%= post.user.alias %></a> says: </p>
+  app/views/posts/index.html.erb:10:in `_app_views_posts_index_html_erb___4284249986934295706_70002404342340'
+
+
+
+ActionView::Template::Error (PG::UndefinedColumn: ERROR:  column "users_liked" does not exist
+LINE 1: ...rs" ON "users"."id" = "posts"."user_id"  ORDER BY users_like...
+                                                             ^
+: SELECT "posts"."id" AS t0_r0, "posts"."content" AS t0_r1, "posts"."user_id" AS t0_r2, "posts"."created_at" AS t0_r3, "posts"."updated_at" AS t0_r4, "users"."id" AS t1_r0, "users"."name" AS t1_r1, "users"."alias" AS t1_r2, "users"."email" AS t1_r3, "users"."password_digest" AS t1_r4, "users"."created_at" AS t1_r5, "users"."updated_at" AS t1_r6 FROM "posts" LEFT OUTER JOIN "users" ON "users"."id" = "posts"."user_id"  ORDER BY users_liked):
+     7: 	<button type="submit"> Idea! </button>
+     8: </form>
+     9: 
+    10: <% @posts.each do |post|%>
+    11: 	<div id="ideas">
+    12: 		<div id="my_idea">	
+    13: 			<p> <a href="<%= user_path(post.user.id) %>"> <%= post.user.alias %></a> says: </p>
+  app/views/posts/index.html.erb:10:in `_app_views_posts_index_html_erb___4284249986934295706_70002404342340'
+
+
+
+ActionView::Template::Error (PG::UndefinedTable: ERROR:  missing FROM-clause entry for table "likes"
+LINE 1: ...rs" ON "users"."id" = "posts"."user_id"  ORDER BY likes.coun...
+                                                             ^
+: SELECT "posts"."id" AS t0_r0, "posts"."content" AS t0_r1, "posts"."user_id" AS t0_r2, "posts"."created_at" AS t0_r3, "posts"."updated_at" AS t0_r4, "users"."id" AS t1_r0, "users"."name" AS t1_r1, "users"."alias" AS t1_r2, "users"."email" AS t1_r3, "users"."password_digest" AS t1_r4, "users"."created_at" AS t1_r5, "users"."updated_at" AS t1_r6 FROM "posts" LEFT OUTER JOIN "users" ON "users"."id" = "posts"."user_id"  ORDER BY likes.count):
+     7: 	<button type="submit"> Idea! </button>
+     8: </form>
+     9: 
+    10: <% @posts.each do |post|%>
+    11: 	<div id="ideas">
+    12: 		<div id="my_idea">	
+    13: 			<p> <a href="<%= user_path(post.user.id) %>"> <%= post.user.alias %></a> says: </p>
+  app/views/posts/index.html.erb:10:in `_app_views_posts_index_html_erb___4284249986934295706_70002404342340'
+
+
+
+ActionView::Template::Error (undefined method `name' for 5:Fixnum):
+    1: <h1> Hi, <%= session[:id].name %> </h1>
+    2: 
+    3: <form id="idea_form" action="<%= posts_path %>" method="POST">
+    4: 	<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  app/views/posts/index.html.erb:1:in `_app_views_posts_index_html_erb___4284249986934295706_70002310087280'
+
+
+
+ActionView::Template::Error (Association named 'user' was not found on User; perhaps you misspelled it?):
+     7: 	<button type="submit"> Idea! </button>
+     8: </form>
+     9: 
+    10: <% @posts.each do |post|%>
+    11: 	<div id="ideas">
+    12: 		<div id="my_idea">	
+    13: 			<p> <a href="<%= user_path(post.user.id) %>"> <%= post.user.alias %></a> says: </p>
+  app/views/posts/index.html.erb:10:in `_app_views_posts_index_html_erb___4284249986934295706_70002309247060'
+
+
+
+ActiveRecord::ConfigurationError (Association named 'user' was not found on User; perhaps you misspelled it?):
+  app/controllers/posts_controller.rb:6:in `p'
+  app/controllers/posts_controller.rb:6:in `index'
+
+
+
+ActionView::Template::Error (undefined method `id' for #<User::ActiveRecord_Associations_CollectionProxy:0x007f555d9ac748>
+Did you mean?  ids):
+    19: 				<p> <a href="<%= post_path(post.id) %>" data-method="delete"> Delete</a> </p>
+    20: 			<% end %>
+    21: 		</div>
+    22: 		<% if post.users_liked.id.include?(session[:id]) %>
+    23: 		<!-- will return an array of user objects -->
+    24: 			<a href="<%= post_like_path(post.id) %> " data-method="delete"> Unlike</a> 
+    25: 		<% else %>
+  app/views/posts/index.html.erb:22:in `block in _app_views_posts_index_html_erb___4284249986934295706_70002309854460'
+  app/views/posts/index.html.erb:10:in `_app_views_posts_index_html_erb___4284249986934295706_70002309854460'
+
+
+
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column users.post_id does not exist
+LINE 1: SELECT  "users".* FROM "users" WHERE "users"."post_id" = '1'...
+                                             ^
+: SELECT  "users".* FROM "users" WHERE "users"."post_id" = '1' LIMIT 1):
+  app/controllers/posts_controller.rb:21:in `show'
+
+
+
+NoMethodError (undefined method `eager_load' for #<Post:0x0000000540fdd0>):
+  app/controllers/posts_controller.rb:20:in `show'
+
+
+
+ActionView::Template::Error (undefined method `user' for #<Post::ActiveRecord_Relation:0x000000054fdb70>):
+    3: </header>
+    4: 
+    5: <div id="my_idea">	
+    6: 	<p> <a href="<%= user_path(@this_post.user.id) %>"> <%= @this_post.user.alias %></a> says: </p>
+    7: 	<p id="content"> <%= @this_post.content %> </p>
+    8: </div>
+    9: 
+  app/views/posts/show.html.erb:6:in `_app_views_posts_show_html_erb__2586907262419487273_44494040'
+
+
+
+ActionView::Template::Error (undefined method `user' for #<Post::ActiveRecord_Relation:0x00000004b8aea8>):
+    3: </header>
+    4: 
+    5: <div id="my_idea">	
+    6: 	<p> <a href="<%= user_path(@this_post.user) %>"> <%= @this_post.user.alias %></a> says: </p>
+    7: 	<p id="content"> <%= @this_post.content %> </p>
+    8: </div>
+    9: 
+  app/views/posts/show.html.erb:6:in `_app_views_posts_show_html_erb__2586907262419487273_39556080'
+
+
+
+ActionView::Template::Error (undefined method `uniq' for #<Enumerator:0x007fb2cac26940>):
+    14: 		<th> Name </th>
+    15: 	</thead>
+    16: 	<tbody>
+    17: 		<% @this_post.users_liked.each.uniq do |user| %>
+    18: 		<tr>
+    19: 			<td> <a href="<%= user_path(user.id) %>"> <%= user.alias %> </a> </td>
+    20: 			<td> <%= user.name %> </td>
+  app/views/posts/show.html.erb:17:in `_app_views_posts_show_html_erb__2586907262419487273_25070260'
+
+
+
+ActionView::Template::Error (PG::UndefinedColumn: ERROR:  column posts.likes does not exist
+LINE 1: ..._likeds_posts"."id" = "likes"."user_id"  ORDER BY "posts"."l...
+                                                             ^
+: SELECT "posts"."id" AS t0_r0, "posts"."content" AS t0_r1, "posts"."user_id" AS t0_r2, "posts"."created_at" AS t0_r3, "posts"."updated_at" AS t0_r4, "users"."id" AS t1_r0, "users"."name" AS t1_r1, "users"."alias" AS t1_r2, "users"."email" AS t1_r3, "users"."password_digest" AS t1_r4, "users"."created_at" AS t1_r5, "users"."updated_at" AS t1_r6, "users_likeds_posts"."id" AS t2_r0, "users_likeds_posts"."name" AS t2_r1, "users_likeds_posts"."alias" AS t2_r2, "users_likeds_posts"."email" AS t2_r3, "users_likeds_posts"."password_digest" AS t2_r4, "users_likeds_posts"."created_at" AS t2_r5, "users_likeds_posts"."updated_at" AS t2_r6 FROM "posts" LEFT OUTER JOIN "users" ON "users"."id" = "posts"."user_id" LEFT OUTER JOIN "likes" ON "likes"."post_id" = "posts"."id" LEFT OUTER JOIN "users" "users_likeds_posts" ON "users_likeds_posts"."id" = "likes"."user_id"  ORDER BY "posts"."likes" DESC):
+     7: 	<button type="submit"> Idea! </button>
+     8: </form>
+     9: 
+    10: <% @posts.each do |post|%>
+    11: 	<div id="ideas">
+    12: 		<div id="my_idea">	
+    13: 			<p> <a href="<%= user_path(post.user.id) %>"> <%= post.user.alias %></a> says: </p>
+  app/views/posts/index.html.erb:10:in `_app_views_posts_index_html_erb___1121575946051749053_70202926277200'
+
+
+
+NoMethodError (undefined method `users_liked' for #<Post::ActiveRecord_Relation:0x007fb2caaec6b0>):
+  app/controllers/posts_controller.rb:6:in `index'
+
+
+
+ActionView::Template::Error (undefined method `count' for :users_liked:Symbol):
+     7: 	<button type="submit"> Idea! </button>
+     8: </form>
+     9: 
+    10: <% @posts.order(:users_liked.count, :desc).each do |post| {}%>
+    11: 	<div id="ideas">
+    12: 		<div id="my_idea">	
+    13: 			<p> <a href="<%= user_path(post.user.id) %>"> <%= post.user.alias %></a> says: </p>
+  app/views/posts/index.html.erb:10:in `_app_views_posts_index_html_erb___1121575946051749053_70202940445280'
+
+
+
+SyntaxError (/vagrant/rubyBelt/app/views/posts/index.html.erb:10: syntax error, unexpected '}', expecting =>):
+  app/views/posts/index.html.erb:10: syntax error, unexpected '}', expecting =>
+
+
+
+SyntaxError (/vagrant/rubyBelt/app/views/posts/index.html.erb:10: syntax error, unexpected '}', expecting =>):
+  app/views/posts/index.html.erb:10: syntax error, unexpected '}', expecting =>
+
+
+
+SyntaxError (/vagrant/rubyBelt/app/views/posts/index.html.erb:10: syntax error, unexpected ',', expecting =>
+....sort | post.users_liked.count, :desc | }
+...                               ^
+/vagrant/rubyBelt/app/views/posts/index.html.erb:10: syntax error, unexpected '}'):
+  app/views/posts/index.html.erb:10: syntax error, unexpected ',', expecting =>
+  app/views/posts/index.html.erb:10: syntax error, unexpected '}'
+
+
+
+SyntaxError (/vagrant/rubyBelt/app/views/posts/index.html.erb:28: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/posts/index.html.erb:28: syntax error, unexpected keyword_ensure, expecting end-of-input
+
+
+
+ActionView::Template::Error (undefined method `count' for :users_liked:Symbol):
+     8: </form>
+     9: 
+    10: <% @posts.each do |post| %>
+    11: 	<% post.order(:users_liked.count, :desc) %>
+    12: 	<div id="ideas">
+    13: 		<div id="my_idea">	
+    14: 			<p> <a href="<%= user_path(post.user.id) %>"> <%= post.user.alias %></a> says: </p>
+  app/views/posts/index.html.erb:11:in `block in _app_views_posts_index_html_erb___1121575946051749053_70202940052900'
+  app/views/posts/index.html.erb:10:in `_app_views_posts_index_html_erb___1121575946051749053_70202940052900'
+
+
+
+ActionView::Template::Error (undefined method `order' for 6:Fixnum
+Did you mean?  ord):
+     8: </form>
+     9: 
+    10: <% @posts.each do |post| %>
+    11: 	<% post.users_liked.count.order(:desc) %>
+    12: 	<div id="ideas">
+    13: 		<div id="my_idea">	
+    14: 			<p> <a href="<%= user_path(post.user.id) %>"> <%= post.user.alias %></a> says: </p>
+  app/views/posts/index.html.erb:11:in `block in _app_views_posts_index_html_erb___1121575946051749053_70202931432060'
+  app/views/posts/index.html.erb:10:in `_app_views_posts_index_html_erb___1121575946051749053_70202931432060'
+
+
+
+ActionView::Template::Error (undefined method `user' for #<Post::ActiveRecord_Relation:0x000000028c6bd8>):
+    3: </header>
+    4: 
+    5: <div id="my_idea">	
+    6: 	<p> <a href="<%= user_path(@this_post.user.id) %>"> <%= @this_post.user.alias %></a> says: </p>
+    7: 	<p id="content"> <%= @this_post.content %> </p>
+    8: </div>
+    9: 
+  app/views/posts/show.html.erb:6:in `_app_views_posts_show_html_erb__2586907262419487273_70202940054820'
+
+
+
+ActionView::Template::Error (undefined method `user' for #<Post::ActiveRecord_Relation:0x000000056e4a88>):
+    3: </header>
+    4: 
+    5: <div id="my_idea">	
+    6: 	<p> <a href="<%= user_path(@this_post.user.id) %>"> <%= @this_post.user.alias %></a> says: </p>
+    7: 	<p id="content"> <%= @this_post.content %> </p>
+    8: </div>
+    9: 
+  app/views/posts/show.html.erb:6:in `_app_views_posts_show_html_erb__2586907262419487273_70202940054820'
+
+
+
+NoMethodError (undefined method `eager_load' for #<Post:0x0000000497c4b8>):
+  app/controllers/posts_controller.rb:20:in `show'
+
+
+
+NoMethodError (undefined method `sort_by' for #<Post:0x007f2088422408>):
+  app/controllers/posts_controller.rb:8:in `block in index'
+  app/controllers/posts_controller.rb:6:in `index'
+
+
+
+NoMethodError (undefined method `order_by' for #<Post:0x000000049be2c8>):
+  app/controllers/posts_controller.rb:8:in `block in index'
+  app/controllers/posts_controller.rb:6:in `index'
+
+
+
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column "users_liked" does not exist
+LINE 1: ...s_posts"."id" = "likes"."user_id"  ORDER BY count(users_like...
+                                                             ^
+: SELECT "posts"."id" AS t0_r0, "posts"."content" AS t0_r1, "posts"."user_id" AS t0_r2, "posts"."created_at" AS t0_r3, "posts"."updated_at" AS t0_r4, "users"."id" AS t1_r0, "users"."name" AS t1_r1, "users"."alias" AS t1_r2, "users"."email" AS t1_r3, "users"."password_digest" AS t1_r4, "users"."created_at" AS t1_r5, "users"."updated_at" AS t1_r6, "users_likeds_posts"."id" AS t2_r0, "users_likeds_posts"."name" AS t2_r1, "users_likeds_posts"."alias" AS t2_r2, "users_likeds_posts"."email" AS t2_r3, "users_likeds_posts"."password_digest" AS t2_r4, "users_likeds_posts"."created_at" AS t2_r5, "users_likeds_posts"."updated_at" AS t2_r6 FROM "posts" LEFT OUTER JOIN "users" ON "users"."id" = "posts"."user_id" LEFT OUTER JOIN "likes" ON "likes"."post_id" = "posts"."id" LEFT OUTER JOIN "users" "users_likeds_posts" ON "users_likeds_posts"."id" = "likes"."user_id"  ORDER BY count(users_liked) DESC):
+  app/controllers/posts_controller.rb:6:in `p'
+  app/controllers/posts_controller.rb:6:in `index'
+
+
+
+ActionView::Template::Error (PG::UndefinedColumn: ERROR:  column "users_liked" does not exist
+LINE 1: ...s_posts"."id" = "likes"."user_id"  ORDER BY count(users_like...
+                                                             ^
+: SELECT "posts"."id" AS t0_r0, "posts"."content" AS t0_r1, "posts"."user_id" AS t0_r2, "posts"."created_at" AS t0_r3, "posts"."updated_at" AS t0_r4, "users"."id" AS t1_r0, "users"."name" AS t1_r1, "users"."alias" AS t1_r2, "users"."email" AS t1_r3, "users"."password_digest" AS t1_r4, "users"."created_at" AS t1_r5, "users"."updated_at" AS t1_r6, "users_likeds_posts"."id" AS t2_r0, "users_likeds_posts"."name" AS t2_r1, "users_likeds_posts"."alias" AS t2_r2, "users_likeds_posts"."email" AS t2_r3, "users_likeds_posts"."password_digest" AS t2_r4, "users_likeds_posts"."created_at" AS t2_r5, "users_likeds_posts"."updated_at" AS t2_r6 FROM "posts" LEFT OUTER JOIN "users" ON "users"."id" = "posts"."user_id" LEFT OUTER JOIN "likes" ON "likes"."post_id" = "posts"."id" LEFT OUTER JOIN "users" "users_likeds_posts" ON "users_likeds_posts"."id" = "likes"."user_id"  ORDER BY count(users_liked) DESC):
+     7: 	<button type="submit"> Idea! </button>
+     8: </form>
+     9: 
+    10: <% @posts.each do |post| %>
+    11: 
+    12: 	<div id="ideas">
+    13: 		<div id="my_idea">	
+  app/views/posts/index.html.erb:10:in `_app_views_posts_index_html_erb__2325827384159640994_70170955479480'
+
+
+
+ActionController::RoutingError (No route matches [GET] "/posts/3/likes"):
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.9) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.9) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.9) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.9) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.9) lib/rack/lock.rb:17:in `call'
+  rack (1.6.9) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.9) lib/rack/handler/webrick.rb:88:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+
+ActionController::RoutingError (No route matches [GET] "/posts/3/likes"):
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.9) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.9) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.9) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.9) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.9) lib/rack/lock.rb:17:in `call'
+  rack (1.6.9) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.9) lib/rack/handler/webrick.rb:88:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+
+ActionView::MissingTemplate (Missing template likes/create, application/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/vagrant/brightIdeas/app/views"
+):
+  actionview (4.2.7) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.7) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.7) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.7) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.7) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.7) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.7) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.7) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.7) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.7) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.7) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.7) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.7) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.7) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.7) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.2.7) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.7) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.7) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.7) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.7) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.7) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.7) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.7) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.7) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.7) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.7) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.7) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.7) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.7) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.7) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.7) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.7) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.7) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.7) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.7) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.7) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.7) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.7) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.7) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.7) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.7) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.9) lib/rack/etag.rb:24:in `call'
+  rack (1.6.9) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.9) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.9) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.9) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.7) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.7) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.7) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.7) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.7) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.7) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.7) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.9) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.9) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.9) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.7) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.9) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.7) lib/rails/engine.rb:518:in `call'
+  railties (4.2.7) lib/rails/application.rb:165:in `call'
+  rack (1.6.9) lib/rack/lock.rb:17:in `call'
+  rack (1.6.9) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.9) lib/rack/handler/webrick.rb:88:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /home/vagrant/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+
+NoMethodError (undefined method `left_join' for #<Class:0x007f99fdc88798>):
+  app/controllers/posts_controller.rb:6:in `index'
+
+
+
+NoMethodError (undefined method `left_joins' for #<Class:0x007f99f877d078>):
+  app/controllers/posts_controller.rb:6:in `index'
+
+
+
+NoMethodError (undefined method `left_outer_joins' for #<Class:0x007f99fd292b80>):
+  app/controllers/posts_controller.rb:6:in `index'
+
+
+
+NoMethodError (undefined method `left_join' for #<Class:0x007f99fd8c6038>):
+  app/controllers/posts_controller.rb:6:in `index'
+
+
+
+NoMethodError (undefined method `left_joins' for #<Class:0x007f99f8a90530>):
+  app/controllers/posts_controller.rb:6:in `index'
+
+
+
+NoMethodError (undefined method `left_join' for #<Class:0x007f99fddd92a0>):
+  app/controllers/posts_controller.rb:6:in `index'
+
+
+
+NoMethodError (undefined method `left_joins' for #<Class:0x007f99fddaf158>):
+  app/controllers/posts_controller.rb:5:in `index'
+
+
+
+NoMethodError (undefined method `left_join' for #<Class:0x007f99f874cfe0>):
+  app/controllers/posts_controller.rb:5:in `index'
+
+
+
+ActionView::Template::Error (unsupported: Hash):
+     6: 	<button type="submit"> Idea! </button>
+     7: </form>
+     8: 
+     9: <% @posts.each do |post| %>
+    10: 
+    11: 	<div id="ideas">
+    12: 		<div id="my_idea">	
+  app/views/posts/index.html.erb:9:in `_app_views_posts_index_html_erb__2029709051591746904_70149638367120'
+
+
+
+NoMethodError (undefined method `left_join' for #<Class:0x007f99fd383170>):
+  app/controllers/posts_controller.rb:5:in `index'
+
+
+
+NoMethodError (undefined method `left_join' for #<Class:0x007f99f864f778>):
+  app/controllers/posts_controller.rb:5:in `index'
+
+
+
+ActionView::Template::Error (unsupported: Hash):
+     6: 	<button type="submit"> Idea! </button>
+     7: </form>
+     8: 
+     9: <% @posts.each do |post| %>
+    10: 
+    11: 	<div id="ideas">
+    12: 		<div id="my_idea">	
+  app/views/posts/index.html.erb:9:in `_app_views_posts_index_html_erb__2029709051591746904_70149638367120'
+
+
